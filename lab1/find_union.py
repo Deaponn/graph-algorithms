@@ -37,7 +37,7 @@ def min_of_max(s, t, n, G):
     return G[-1][2]
 
 
-V, L = loadWeightedGraph("./graphs/clique100")
+V, L = loadWeightedGraph("./graphs/clique1000")
 
 L.sort(key = lambda edge: -edge[2])
 
